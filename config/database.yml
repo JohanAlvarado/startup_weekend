@@ -5,3 +5,11 @@ development:
   pool: 5
   username: start_up
   password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: start_up
+  pool: 5
+  username: start_up
+  password:
