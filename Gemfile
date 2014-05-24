@@ -32,3 +32,8 @@ gem 'omniauth'
 gem 'omniauth-facebook', '1.4.0'
 
 gem 'figaro'
+
+group :production do
+  gem 'thin'
+  gem 'rails_12factor'
+end
