@@ -1,9 +1,33 @@
 %div{class: "fullpage-home"}
   %div{class: "section", id: "section1"}
-    %h1 Title 1
+    .container
+      %ul{class: 'show-menu nav nav-pills'}
+        %li{'data-menuanchor' => "firstPage", class: 'active' }
+          %a{href: "#firstPage"} Seccion Principal
+        %li{'data-menuanchor' => "secondPage" }
+          %a{href: '#secondPage'} Donadores
+        %li{'data-menuanchor' => "3rdPage" }
+          %a{href: '#thirdPage'} Crea una Campana
+        %li{'data-menuanchor' => "4thpage" }
+          %a{href: '#fourthPage'} Campanas
+      .logo-container
+        %div{class: "logo"}
+      .jumbotron
+        %h3 ¿Te gustaria ser un donador de sangre?,¿Iniciar una campana en busqueda de posibles donadores de sangre?
   %div{class: "section",id: "section2"}
-    %h1 Title 2
+    .logo-donador
+      %div{class: "donador"}
+    .p{class: 'col-xs-6 don'}
+      %h3 Gracias por querer ser un donador de sangre, ahora solo falta completar un pequeno formulario..!
+      =link_to 'Registrarme como donador','', class: 'btn btn-primary btn-big', role: "button"
   %div{class: "section",id: "section3"}
-    %h1 Title 3
+    .logo-campana
+      %div{class: "campana"}
+    .p{class: 'col-xs-6 don'}
+      %h3 Puedes iniciar una campana para buscar donadores, con el tipo de sangre y cerca de ti
+      =link_to 'Crear campana' ,'', class: 'btn btn-primary btn-big', role: "button"
+
+      =link_to 'Ver campanas' ,'', class: 'btn btn-primary btn-big', role: "button"
+
   %div{class: "section", id: "section4"}
     %h1 Title 4

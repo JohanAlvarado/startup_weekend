@@ -18,17 +18,62 @@ h1 {
 }
 
 #section1 {
-  background-image: image-url("bg1.jpg");
+  background-image: image-url("azul.png");
 }
 
 #section2 {
-  background-image: image-url("bg2.jpg");
+  background-image: image-url("verde.png");
 }
 
 #section3 {
-  background-image: image-url("bg3.jpg");
 }
 
 #section4 {
-  background-image: image-url("bg4.jpg");
 }
+
+.logo-container{
+  width: 150px;
+  height: 150px;
+}
+.logo{
+  background-image: image-url("logo-donando.png");
+  width: 450px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  margin: -50% 400%
+}
+.show-menu{
+}
+.jumbotron{
+  background-color: inherit;
+}
+.logo-donador{
+  width: 150px;
+  height: 150px;
+}
+.donador{
+  background-image: image-url("unete.png");
+  width: 450px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  margin: -50% 400%
+}
+.don{
+  color: white
+}
+
+.logo-campana{
+  width: 150px;
+  height: 150px;
+}
+.campana{
+  background-image: image-url("campana.png");
+  width: 450px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  margin: -50% 400%
+}
+
